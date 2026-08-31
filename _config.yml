@@ -1,0 +1,13 @@
+title: DXPlay Source Builder
+description: Choose community source categories and build a DXPlay configuration.
+lang: zh-CN
+theme: jekyll-theme-cayman
+repository: HomologyAgent/HomologyAgent.github.io
+github:
+  is_project_page: false
+exclude:
+  - AGENTS.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - skills
