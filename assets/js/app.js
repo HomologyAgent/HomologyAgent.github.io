@@ -99,7 +99,7 @@
   const renderPresets = () => {
     byId('preset-links').innerHTML = catalog.categories.map(category => {
       const url = new URL('configs/' + category.id + '.json', catalogBase).href;
-      return `<a class="preset-link" href="${escapeText(url)}">${escapeText(category.name)} JSON</a>`;
+      return `<a class="preset-link ${category.explicit ? 'adult' : ''}" href="${escapeText(url)}">${escapeText(category.name)} JSON</a>`;
     }).join('');
   };
   const copy = async (value, button) => {

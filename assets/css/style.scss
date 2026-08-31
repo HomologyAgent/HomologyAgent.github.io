@@ -60,6 +60,7 @@ body {
 .option-card:hover { border-color: rgba(88, 215, 196, 0.42); transform: translateY(-1px); }
 .option-card:has(input:checked) { border-color: rgba(88, 215, 196, 0.7); background: rgba(49, 119, 117, 0.2); }
 .option-card.adult:has(input:checked) { border-color: rgba(255, 176, 166, 0.7); background: rgba(133, 62, 57, 0.2); }
+.option-card.adult, .preset-link.adult { display: none; }
 .option-card input { position: absolute; opacity: 0; pointer-events: none; }
 .option-title { display: flex; justify-content: space-between; gap: 10px; color: var(--text); font-weight: 700; }
 .option-count { color: var(--accent); font-variant-numeric: tabular-nums; }
