@@ -12,6 +12,7 @@ title: DXPlay 源生成器
       <span id="catalog-status" class="status-chip">正在读取目录…</span>
       <a id="default-config-link" class="quiet-link" href="https://raw.githubusercontent.com/HomologyAgent/dxsrc/master/dxplay.json">默认配置 URL</a>
       <a class="quiet-link" href="#support">技术支持</a>
+      <a class="quiet-link" href="{{ '/dxsrc/privacy/' | relative_url }}">隐私政策</a>
     </div>
   </section>
 
