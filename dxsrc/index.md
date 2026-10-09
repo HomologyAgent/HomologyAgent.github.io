@@ -11,6 +11,7 @@ title: DXPlay 源生成器
     <div class="status-row">
       <span id="catalog-status" class="status-chip">正在读取目录…</span>
       <a id="default-config-link" class="quiet-link" href="https://raw.githubusercontent.com/HomologyAgent/dxsrc/master/dxplay.json">默认配置 URL</a>
+      <a class="quiet-link" href="#support">技术支持</a>
     </div>
   </section>
 
@@ -68,6 +69,11 @@ title: DXPlay 源生成器
     <h2>固定分类 URL</h2>
     <p>适合直接粘贴到 DXPlay；内容会随 DXSrc 发布自动更新。</p>
     <div id="preset-links" class="preset-links"></div>
+  </section>
+  <section id="support" class="panel" aria-labelledby="support-title">
+    <h2 id="support-title">DXPlay 技术支持</h2>
+    <p>使用问题与意见反馈，请联系 Telegram 技术支持群。</p>
+    <a href="https://t.me/deltaxplay">加入 Telegram 群 · @deltaxplay</a>
   </section>
 </div>
 
